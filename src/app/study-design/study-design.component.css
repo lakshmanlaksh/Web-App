@@ -1,0 +1,70 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* form */
+.vtabs .nav-item::after{
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border: 1px solid #00000026;
+  height: 30px;
+  width: 4px;
+  position: relative;
+  left: 26px;
+  top: 0;
+  background: #e1e1e1;
+}
+.vtabs .nav-item:last-child::after{
+  display: none;
+}
+.fa-circle-o:before{
+  color: #e1e1e1;
+}
+
+.red{
+  color: red;
+}
+.d-table{
+  display: table !important;
+}
+.d-table-cell{
+  display: table-cell !important;
+}
+.study-design .box-body{
+	display:table;
+}
+.study-design .vtabs {
+	display: contents;
+}
+#design .design{
+  display: flex;
+  padding: 0;
+}
+#design .design li{
+  display: contents;
+}
+#design .list-icons .dropdown-toggle::after, #schedule .dropdown-toggle::after{
+  display: none;
+}
+#design .list-icons .dropdown-toggle{
+  padding: 0 5px;
+}
+#design .list-icons .dropdown-toggle i, #schedule .dropdown-toggle i{
+  color: #3596f7;
+}
+.warning{
+  color: #ffb405;
+}
+.float-right{
+  float: right !important;
+  width: auto !important;
+}
+#form .search-bx, #checks .search-bx{
+  max-width: 100% !important;
+}
+.pt-12{
+  padding-top: 12px;
+}
+.pt-7{
+  padding-top: 7px;
+}
